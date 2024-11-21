@@ -1,0 +1,60 @@
+/* EventCard.css */
+.event-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 280px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-img img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .event-text {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #333;
+  }
+  
+  .event-text h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .event-text span {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .event-text p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  /* Additional styling for date container */
+  .event-date {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+  
+  .event-date span {
+    font-weight: 500;
+  }
+  
